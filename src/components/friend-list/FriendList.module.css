@@ -1,0 +1,18 @@
+.list{
+	margin: 0 auto 25px auto;
+	width: 50%;
+}
+.item:not(:last-child){
+	margin-bottom: 20px;
+}
+.item{
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+	gap: 20px;
+}
+.status, .avatar{
+	display: block;
+}
+
